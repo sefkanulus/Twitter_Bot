@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = 'https://v6.exchangerate-api.com/v6/9bda92af3a0339854122f7cb/latest/USD'
+url = 'Your Token'
 
 response = requests.get(url)
 data = response.json()
